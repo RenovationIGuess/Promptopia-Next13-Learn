@@ -1,0 +1,27 @@
+To create route in next:
+
+create folder in app folder -> "localhost:3000/"
+sub folder in app folder -> "localhost:3000/folder__name"
+dynamic folder in app folder -> "localhost:3000/folder/[folder__name]"
+and keep doing the same nesting stuff
+
+special files:
+error.js
+layout.js
+loading.js
+page.js -> regular page
+route.js -> be api route
+
+data-fetching
+1. SSR
+2. SSG
+3. ISR (combination of SSR and SSG - best of all)
+
+How to utilize next
+
+2 different ways to creating api routes
+    1. Create route.js for the endpoints you want -> not recommended because it will crash with page.js
+-> keep all be logic and api endpoints to api folder
+
+SCO? 
+Metadata?
